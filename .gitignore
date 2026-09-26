@@ -1,3 +1,10 @@
+# Build outputs (distributed via GitHub Releases, not git)
+Setup.exe
+deltarune-internal-menu-*.zip
+
+# Runtime download cache created by Setup.exe next to the release files
+tools/
+
 # Local install artifacts (created inside the GAME folder, never in this repo):
 # chapterN_windows/.internal-menu-release/ holds backups, state.json, build logs
 .internal-menu-release/
