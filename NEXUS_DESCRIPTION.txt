@@ -1,0 +1,24 @@
+DELTARUNE Internal Mod Menu — Language-Preserving Installer
+Version 1.2.0 | Windows | Manual installation
+
+An in-game F1 sandbox menu with chapter-specific adapters for chapters 1–5. Includes combat/TP tweaks, speed and encounter controls, inventory and money editing, party controls, noclip, room warps, flags, jukebox, sprite/tint changes, dialogue speed and simulated strange events.
+
+MENU-ONLY DOWNLOAD
+No data.win, game assets or translation files are included. The installer patches your own archives and builds catalogs from your own installation. It preserves the original string table and does not replace language files. Menu UI is English; your game retains its existing language.
+
+REQUIRED DOWNLOAD
+UndertaleModTool CLI 0.9.2.0, Windows archive UTMT_CLI_v0.9.2.0-Windows.zip:
+https://github.com/UnderminersTeam/UndertaleModTool/releases/tag/0.9.2.0
+
+INSTALL
+Close DELTARUNE. Extract the mod and the CLI tool. Run Install.cmd and supply the game root containing DELTARUNE.exe and the full path to UndertaleModCli.exe. Launch normally and press F1. See README_EN.md or LEGGIMI_IT.md for complete instructions. Restore any older internal menu first; install your preferred translation before this menu.
+
+UNINSTALL
+Close the game and run Uninstall.cmd. Keep each chapter's .internal-menu-release folder: it holds the verified original backup. Changed archives are not overwritten automatically.
+
+COMPATIBILITY
+Windows only. Manual script installer, not a Vortex replacement-archive package. Requires writable game files and backup space. Only installed chapters and their own assets are available. Noelle is unavailable in chapter 1. Story-dependent fights, warps and unusual party combinations are experimental. Preserve your saves before editing story flags or using inventory cheats; in-game saving can retain these changes.
+
+Translation preservation is built into the patching workflow, but compatibility with every translation, future update or other code mod is not guaranteed. Missing required hooks stop preparation. Validation covers compilation/reload, input-text preservation and exact restoration on five local chapter builds; it is not a playtest of every language/build.
+
+Unofficial fan modification. Game files and UndertaleModTool are not redistributed.

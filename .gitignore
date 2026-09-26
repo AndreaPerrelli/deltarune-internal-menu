@@ -1,0 +1,27 @@
+# Local install artifacts (created inside the GAME folder, never in this repo):
+# chapterN_windows/.internal-menu-release/ holds backups, state.json, build logs
+.internal-menu-release/
+*.build.log
+*.report.json
+*.report.json.verified
+*.patched.win
+*.original.win
+*.restore.win
+*.removed-menu.win
+state.json
+
+# UndertaleModTool binaries (third-party dependency, download separately)
+UndertaleModCli.exe
+UndertaleModTool*
+
+# Game archives (copyrighted, never commit)
+data.win
+DELTARUNE.exe
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*~
